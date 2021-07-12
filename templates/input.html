@@ -1,0 +1,15 @@
+<!doctype html>
+<title>Upload new File</title>
+<h1>Upload new File</h1>
+<form method=post enctype=multipart/form-data>
+    File
+    <input type=file name=file required><br>
+    Key
+    <input type="text" id="key" name="key" required><br>
+    <label for="delimiter">Choose a delimiter of data file:</label>
+    <select id="delimiter" name="delimiter">
+        <option value="tab">tab</option>
+        <option value="space">space</option>
+    </select><br>
+    <input type=submit value=Submit>
+</form>
