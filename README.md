@@ -7,3 +7,5 @@ To build docker image do
 
 To run
 <code>docker run -i -p 5000:5000 -d benford_flask</code>
+
+By default it starts at 5000 port. Please go to http://localhost:5000
